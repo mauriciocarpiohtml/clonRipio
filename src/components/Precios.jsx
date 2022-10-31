@@ -46,24 +46,35 @@ transition-duration: .3s;
 `
 
 const ContenidoCripto = styled.p`
-font-size: 16px;
+font-size: 12px;
+margin-top: 20px;
 color:#3f3f3f;
 text-transform:uppercase;
 font-weight: 700;
-/* margin: 0 auto; */
+
 text-align: center;
 margin-right: 34px;
+
+@media (min-width:768px) {
+  font-size: 16px;
+ 
+}
 
 `
 const ContenidoCriptoPrecio = styled.p`
-font-size: 16px;
+font-size: 12px;
 color:#0c4070;
 text-transform:uppercase;
 font-weight: 700;
-/* margin: 0 auto; */
+margin-top: 20px;
+
 text-align: center;
 margin-right: 34px;
 
+@media (min-width:768px) {
+  font-size: 16px;
+  
+}
 `
 function Precios({criptoSelect}) {
 
